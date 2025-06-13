@@ -1,4 +1,48 @@
 body {
     max-width: 1000px;
     margin: auto;
+    background-color:rgb(247, 231, 212);
+}
+
+/* Main page style */
+
+.home-heading {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 42px;
+    color: rgb(244, 79, 79);
+}
+
+.recipe-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.recipe-list-item {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    background-color: rgba(233, 172, 98, 0.2);
+    margin: 8px 0;
+    padding: 16px;
+}
+
+.recipe-list-item:hover {
+    background-color: rgba(243, 151, 38, 0.25);
+}
+
+.recipe-link {
+    color: rgb(226, 43, 43);
+}
+
+.recipe-link:visited {
+    color: rgb(143, 35, 35)
+}
+
+.recipe-link:hover {
+    color: rgb(239, 83, 83);
+    text-decoration: none;
+}
+
+.recipe-link:active {
+    color: rgb(239, 83, 83);
+    text-decoration: none;
 }
