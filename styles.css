@@ -31,6 +31,7 @@ body {
 
 .page-link {
     color: rgb(226, 43, 43);
+    padding: 16px 8px;
 }
 
 .page-link:visited {
@@ -64,10 +65,18 @@ body {
     font-size: 20px;
 }
 
+.home-link {
+    padding: 1px;
+}
+
 .home-link:visited {
     color: rgb(226, 43, 43);
 }
 
 ::marker {
     color: rgb(232, 63, 63);
+}
+
+.source-link {
+    padding: 0;
 }
