@@ -29,20 +29,45 @@ body {
     background-color: rgba(243, 151, 38, 0.25);
 }
 
-.recipe-link {
+.page-link {
     color: rgb(226, 43, 43);
 }
 
-.recipe-link:visited {
+.page-link:visited {
     color: rgb(143, 35, 35)
 }
 
-.recipe-link:hover {
+.page-link:hover {
     color: rgb(239, 83, 83);
     text-decoration: none;
 }
 
-.recipe-link:active {
+.page-link:active {
     color: rgb(239, 83, 83);
     text-decoration: none;
+}
+
+/* Recipe pages styles */
+
+.recipe-heading {
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: rgb(232, 63, 63);
+}
+
+.subheading {
+    color: rgb(232, 63, 63);
+    font-size: 24px;
+}
+
+.content {
+    font-size: 20px;
+}
+
+.home-link:visited {
+    color: rgb(226, 43, 43);
+}
+
+::marker {
+    color: rgb(232, 63, 63);
 }
